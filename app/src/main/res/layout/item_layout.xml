@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/item_img"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_margin="5dp"
+        android:scaleType="fitXY" />
+
+
+    <TextView
+        android:maxLines="1"
+        android:id="@+id/item_title"
+        android:text="2222"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/item_img"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/item_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/item_title"
+        android:text="1111"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/item_img"
+        android:textColor="#a1a1a1"
+        android:textStyle="italic" />
+
+    <Button
+        android:id="@+id/btn_play"
+        android:layout_width="60dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@+id/item_author"
+        android:layout_marginRight="10dp"
+        android:background="#27c8ec"
+        android:layout_alignParentEnd="true"
+        android:text="关注" />
+
+
+</RelativeLayout>
